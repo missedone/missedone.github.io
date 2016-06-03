@@ -18,6 +18,8 @@ description: the collection of Golang relate articles.
 
 #### [Channels](http://www.golangbootcamp.com/book/concurrency#sec-channels)
 
+* [Channels Are Not Enough](https://gist.github.com/kachayev/21e7fe149bc5ae0bd878)
+
 #### [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
 
 * [Go Concurrency Patterns: Pipelines and cancellation](http://blog.golang.org/pipelines)
@@ -29,6 +31,8 @@ description: the collection of Golang relate articles.
 ### Error Handling
 
 ## 2. Practices
+
+### General
 
 * 2016
   * [Go best practices, six years in](https://peter.bourgon.org/go-best-practices-2016/)
