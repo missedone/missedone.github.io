@@ -6,17 +6,17 @@ tags: [go, golang, references]
 description: the collection of Golang relate articles.
 ---
 
-## Language
+## 1. Language
 
 ### [Concurrency](http://www.golangbootcamp.com/book/concurrency)
 
 * [Concurrency is not parallelism](https://blog.golang.org/concurrency-is-not-parallelism)
 
-### [Goroutines](http://www.golangbootcamp.com/book/concurrency#sec-goroutines)
+#### [Goroutines](http://www.golangbootcamp.com/book/concurrency#sec-goroutines)
 
 * [How to Wait for All Goroutines to Finish Executing Before Continuing](http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/)
 
-### [Channels](http://www.golangbootcamp.com/book/concurrency#sec-channels)
+#### [Channels](http://www.golangbootcamp.com/book/concurrency#sec-channels)
 
 #### [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
 
@@ -28,13 +28,22 @@ description: the collection of Golang relate articles.
 
 ### Error Handling
 
-## Practices
+## 2. Practices
 
 * 2016
   * [Go best practices, six years in](https://peter.bourgon.org/go-best-practices-2016/)
   * [Programming Patterns in Go](https://www.infoq.com/news/2016/03/go-patterns)
 
-## Tools
+### Tips & Gotchas
+
+* [SliceTricks](https://github.com/golang/go/wiki/SliceTricks)
+* 2015
+  * [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
+  * [Reduce allocation in Go code](https://methane.github.io/2015/02/reduce-allocation-in-go-code/)
+  * [3 Go Gotchas - range, append, variable shadowing](http://bryce.is/writing/code/jekyll/update/2015/11/01/3-go-gotchas.html?utm_source=golangweekly&utm_medium=email)
+
+
+## 3. Tools
 
 ### Dependency Management
 
@@ -53,7 +62,7 @@ is it does [not support go-gettable](https://github.com/constabulary/gb/issues/2
   * [Dave.C: Cross compilation just got a whole lot better in Go 1.5](http://dave.cheney.net/2015/03/03/cross-compilation-just-got-a-whole-lot-better-in-go-1-5)
 * [Golang Auto Build Versioning](http://www.atatus.com/blog/golang-auto-build-versioning/)
 
-## Reference sites
+## 4. Reference sites
 
 * Libs
   * [Awesome Go](http://awesome-go.com)
@@ -63,6 +72,6 @@ is it does [not support go-gettable](https://github.com/constabulary/gb/issues/2
     Go Walker is a server that generates Go projects API documentation on the fly for the projects on GitHub.
 * [Go Language Patterns](http://www.golangpatterns.info/)
 
-## Books
+## 5. Books
 
 * https://github.com/dariubs/GoBooks
