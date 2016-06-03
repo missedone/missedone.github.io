@@ -7,14 +7,14 @@ highlighter: pygments
 markdown: kramdown
 disqus: missedone
 google_analytics: missedone
-title: missedone
+title: Nick's Tech Notebook
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: missedone
+      title: Nick's Tech Notebook
 
 description: Nick's Tech Notebook
 author:
