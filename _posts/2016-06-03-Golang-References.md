@@ -19,6 +19,7 @@ description: the collection of Golang relate articles.
 #### [Channels](http://www.golangbootcamp.com/book/concurrency#sec-channels)
 
 * [Channels Are Not Enough](https://gist.github.com/kachayev/21e7fe149bc5ae0bd878)
+* [Davc.C: Curious Channels](http://dave.cheney.net/2013/04/30/curious-channels)
 
 #### [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
 
@@ -29,6 +30,8 @@ description: the collection of Golang relate articles.
 * [Concurrent error handling](http://blog.schaeffer.io/2015/01/10/errors-and-concurrency/)
 
 ### Error Handling
+
+* [Dave.C: Don’t just check errors, handle them gracefully](http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully)
 
 ## 2. Practices
 
@@ -54,11 +57,11 @@ description: the collection of Golang relate articles.
 I prefer standard [vendoring](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit) for 
 dependencies management, which is offically released since Go 1.6.
 
-The main reason is the IDEs like Intellij Go Plugin and Microsoft Visual Studio Code Go Plugin have better nature support 
+The main reason is the IDEs like Intellij Go Plugin and Microsoft vscode-go Plugin have better nature support 
 for the standard vendoring structure.
 
-Previously I use [gb](https://getgb.io) a lot which is a **project based** build tool for golang, the only drawback of gb 
-is it does [not support go-gettable](https://github.com/constabulary/gb/issues/284).
+Previously, I used to use [gb](https://getgb.io) a lot which is a **project based** build tool for golang, one drawback of gb 
+is it does [not support go-gettable](https://github.com/constabulary/gb/issues/284), the other is MS vscode-go does not support it well.
 
 ### Build
 
