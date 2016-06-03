@@ -8,21 +8,25 @@ description: the collection of Golang relate articles.
 
 ## 1. Language
 
-### [Concurrency](http://www.golangbootcamp.com/book/concurrency)
+### Concurrency
 
+* ['Concurrency' Chapter in Book 'Go Bootcamp'](http://www.golangbootcamp.com/book/concurrency)
 * [Concurrency is not parallelism](https://blog.golang.org/concurrency-is-not-parallelism)
 
-#### [Goroutines](http://www.golangbootcamp.com/book/concurrency#sec-goroutines)
+#### Goroutines
 
+* ['Goroutines' in Book 'Go Bootcamp'](http://www.golangbootcamp.com/book/concurrency#sec-goroutines)
 * [How to Wait for All Goroutines to Finish Executing Before Continuing](http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/)
 
-#### [Channels](http://www.golangbootcamp.com/book/concurrency#sec-channels)
+#### Channels
 
+* ['Channels' in Book 'Go Bootcamp'](http://www.golangbootcamp.com/book/concurrency#sec-channels)
 * [Channels Are Not Enough](https://gist.github.com/kachayev/21e7fe149bc5ae0bd878)
 * [Davc.C: Curious Channels](http://dave.cheney.net/2013/04/30/curious-channels)
 
-#### [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
+#### Go Concurrency Patterns
 
+* [Rob.P: Go Concurrency Patterns - Slides](https://talks.golang.org/2012/concurrency.slide#1)
 * [Go Concurrency Patterns: Pipelines and cancellation](http://blog.golang.org/pipelines)
 * [Go Concurrency Patterns: Context](http://blog.golang.org/context)
 * [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
