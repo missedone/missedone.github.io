@@ -6,12 +6,13 @@ tags: [nosql, cassandra]
 description: the collection of Cassandra relate articles.
 ---
 
-## Getting Started
+## 1. Getting Started
 
 ### Installation
 
 * for Mac
   * [Installing Cassandra on Mac OS X](https://gist.github.com/hkhamm/a9a2b45dd749e5d3b3ae)
+
     ```bash
     ll /usr/local/Cellar/cassandra/
     ln -s /usr/local/Cellar/cassandra/3.5/homebrew.mxcl.cassandra.plist ~/Library/LaunchAgents/homebrew.mxcl.cassandra.plist
@@ -23,7 +24,7 @@ description: the collection of Cassandra relate articles.
     launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.cassandra.plist
     ```
 
-## Modeling
+## 2. Modeling
 
 * 2016
   * [Understanding the Guarantees, Limitations, and Tradeoffs of Cassandra and Materialized Views](http://www.datastax.com/dev/blog/understanding-materialized-views)
