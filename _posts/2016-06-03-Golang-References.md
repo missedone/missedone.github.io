@@ -59,7 +59,7 @@ description: the collection of Golang relate articles.
 ### Dependency Management
 
 I prefer standard [vendoring](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit) for 
-dependencies management, which is offically released since Go 1.6.
+dependencies management, which was offically released since Go 1.6.
 
 The main reason is the IDEs like Intellij Go Plugin and Microsoft vscode-go Plugin have better nature support 
 for the standard vendoring structure.
