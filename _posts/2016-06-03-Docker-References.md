@@ -6,7 +6,7 @@ tags: [docker, devops, cloud]
 description: the collection of Docker relate articles.
 ---
 
-## Getting Started
+## 1. Getting Started
 
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 * [Docker Engine reference](https://docs.docker.com/engine/reference/)
@@ -15,7 +15,7 @@ description: the collection of Docker relate articles.
   * [More work with images](http://www.dasblinkenlichten.com/docker-essentials-working-with-images/)
   * [The docker file](http://www.dasblinkenlichten.com/docker-essentials-the-docker-file/)
 
-## Core
+## 2. Core
 
 ### Volumes
 
@@ -39,21 +39,22 @@ description: the collection of Docker relate articles.
 * 2016
   * [InfoQ: Docker Security Scanning](https://www.infoq.com/news/2016/05/Docker-Security-Scanning)
 
-## Ecosystem
+## 3. Ecosystem
 
 ### Monitoring
 
-* [Comparing Seven Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
+* 2015
+  * [Comparing Seven Monitoring Options for Docker](http://rancher.com/comparing-monitoring-options-for-docker-deployments/)
 
 ### Cluster/Scheduler
 
 * [Comparison of Container Schedulers](https://medium.com/@ArmandGrillet/comparison-of-container-schedulers-c427f4f7421#.i4va7u49v)
 
-## Docker Workflow
+### Docker Workflow
 
 * 2016
   * [Docker Flow – Walkthrough](https://technologyconversations.com/2016/04/18/docker-flow/)
 
-## Reference Site
+## 4. Reference Site
 
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
