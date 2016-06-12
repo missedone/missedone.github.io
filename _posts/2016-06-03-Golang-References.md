@@ -53,6 +53,17 @@ description: the collection of Golang relate articles.
   * [Reduce allocation in Go code](https://methane.github.io/2015/02/reduce-allocation-in-go-code/)
   * [3 Go Gotchas - range, append, variable shadowing](http://bryce.is/writing/code/jekyll/update/2015/11/01/3-go-gotchas.html?utm_source=golangweekly&utm_medium=email)
 
+### Design Pattern
+
+* [Singleton Pattern in Go](http://marcio.io/2015/07/singleton-pattern-in-go/)
+* MapReduce
+  * [Cheap MapReduce in Go](http://marcio.io/2015/07/cheap-mapreduce-in-go/)
+* [Nil Channels Always Block](http://www.godesignpatterns.com/2014/05/nil-channels-always-block.html)
+* [Effective Go](https://golang.org/doc/effective_go.html)
+
+### Misc
+
+* [Calculating Multiple File Hashes in a Single Pass](http://marcio.io/2015/07/calculating-multiple-file-hashes-in-a-single-pass/)
 
 ## 3. Tools
 
