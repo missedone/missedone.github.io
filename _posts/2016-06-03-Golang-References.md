@@ -92,7 +92,8 @@ is it does [not support go-gettable](https://github.com/constabulary/gb/issues/2
 * Api Docs
   * [Go Walker](https://gowalker.org)
     Go Walker is a server that generates Go projects API documentation on the fly for the projects on GitHub.
-* [Go Language Patterns](http://www.golangpatterns.info/)
+* News
+  * [Go Newsletter](http://golangweekly.com)
 
 ## 5. Books
 
