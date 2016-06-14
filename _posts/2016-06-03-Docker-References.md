@@ -14,6 +14,12 @@ description: the collection of Docker relate articles.
   * [Images and Containers](http://www.dasblinkenlichten.com/docker-essentials/)
   * [More work with images](http://www.dasblinkenlichten.com/docker-essentials-working-with-images/)
   * [The docker file](http://www.dasblinkenlichten.com/docker-essentials-the-docker-file/)
+* On Mac
+  * [Testing the Docker for Mac Beta](http://www.dwmkerr.com/testing-the-docker-for-mac-beta/)
+  * [Docker for Mac forum](https://forums.docker.com/c/docker-for-mac)
+* On Windows
+  * [Get Started with Docker for Windows](https://beta.docker.com/docs/windows/getting-started/)
+  * [Docker for Windows forum](https://forums.docker.com/c/docker-for-windows)
 
 ## 2. Core
 
@@ -58,3 +64,4 @@ description: the collection of Docker relate articles.
 ## 4. Reference Site
 
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+* [Docker News & Articles](http://docker-software-inc.scoop.it/t/docker-by-docker)
