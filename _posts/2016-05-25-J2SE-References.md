@@ -87,37 +87,47 @@ description: the collection of Java Core relate articles.
   * [应用 fork-join 框架，第 2 部分: 用 Java 7 中的 ParallelArray 类加速排序和搜索](http://www.ibm.com/developerworks/cn/java/j-jtp03048.html)
   * [JDK 7 中的 Fork/Join 模式](http://www.ibm.com/developerworks/cn/java/j-lo-forkjoin/index.html)
   * [Java Fork/Join Example](http://www.javacreed.com/java-fork-join-example/)
-* try-catch-finally
-  * [finally explained - common questions, uses, etc.](http://geekexplains.blogspot.com/2008/06/finally-explained-common-questions-uses.html)
-  * [Playing with try-catch-finally in Java. Intersting scenarios](http://geekexplains.blogspot.com/2008/11/playing-with-try-catch-finally-in-java.html)
-  * [finally contd.: an interesting try-catch-finally scenario](http://geekexplains.blogspot.com/2009/01/finally-contd-interesting-try-catch.html)
-* Security
-  * KeyStore
-    * [Common Java Keytool commands](http://nl.globalsign.com/en/support/ssl+certificates/java/java+based+webserver/keytool+commands/)
-  * https
-    * [The First Few Milliseconds of an HTTPS Connection](http://www.infoq.com/articles/HTTPS-Connection-Jeff-Moser)
-* Java 7
-  * NIO2
-    * [Introducing NIO.2 (JSR 203) Part 1: What are new features?](http://kalali.me/introducing-nio-2-jsr-203-part-1-what-are-new-features/)
-    * [Introducing NIO.2 (JSR 203) Part 2: The Basics](http://kalali.me/introducing-nio-2-jsr-203-part-2-the-basics/)
-    * [Introducing NIO.2 (JSR 203) Part 3: File System Attributes and Permissions support in NIO.2](http://kalali.me/introducing-nio-2-jsr-203-part-3-file-system-attributes-and-permissions-support-in-nio-2/)
-    * [Introducing NIO.2 (JSR 203) Part 4: Changing File System Attributes and Permissions](http://kalali.me/introducing-nio-2-jsr-203-part-4-changing-file-system-attributes-and-permissions/)
-    * [Introducing NIO.2 (JSR 203) Part 5: Watch Service and Change Notification](http://kalali.me/introducing-nio-2-jsr-203-part-5-watch-service-and-change-notification/)
-    * [Introducing NIO.2 (JSR 203) Part 6: Filtering directory content and walking over a file tree](http://kalali.me/introducing-nio-2-jsr-203-part-6-filtering-directory-content-and-walking-over-a-file-tree/)
-    * [An NIO.2 primer, Part 1: The asynchronous channel APIs](http://www.ibm.com/developerworks/java/library/j-nio2-1/?ca=drs-)
-    * [An NIO.2 primer, Part 2: The file system APIs](http://www.ibm.com/developerworks/java/library/j-nio2-2/?ca=drs-)
-    * [Java 7: NIO.2 I/O operations on asynchronous channels are not atomic](Java 7: NIO.2 I/O operations on asynchronous channels are not atomic)
-    * [Java 7: Closing NIO.2 file channels without loosing data](http://niklasschlimm.blogspot.com/2012/05/java-7-9-nio2-file-channels-on-test.html)
-* Java 8
-  * Lambda
-    * [Lambda Expressions](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
-    * [State of the Lambda](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html)
-    * [State of the Lambda: Libraries Edition](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-libraries-final.html)
-  * Multitenant JVM
-    * [Introduction to Java multitenancy](http://www.ibm.com/developerworks/java/library/j-multitenant-java/index.html)
-  * [Abstract Class Versus Interface in the JDK 8 Era](http://java.dzone.com/articles/abstract-class-versus)
-* Java 9
-  * [jagsaw](http://openjdk.java.net/projects/jigsaw/)
+
+### try-catch-finally
+
+* [finally explained - common questions, uses, etc.](http://geekexplains.blogspot.com/2008/06/finally-explained-common-questions-uses.html)
+* [Playing with try-catch-finally in Java. Intersting scenarios](http://geekexplains.blogspot.com/2008/11/playing-with-try-catch-finally-in-java.html)
+* [finally contd.: an interesting try-catch-finally scenario](http://geekexplains.blogspot.com/2009/01/finally-contd-interesting-try-catch.html)
+
+### Security
+
+* KeyStore
+  * [Common Java Keytool commands](http://nl.globalsign.com/en/support/ssl+certificates/java/java+based+webserver/keytool+commands/)
+* https
+  * [The First Few Milliseconds of an HTTPS Connection](http://www.infoq.com/articles/HTTPS-Connection-Jeff-Moser)
+
+### Java 7
+
+* NIO2
+  * [Introducing NIO.2 (JSR 203) Part 1: What are new features?](http://kalali.me/introducing-nio-2-jsr-203-part-1-what-are-new-features/)
+  * [Introducing NIO.2 (JSR 203) Part 2: The Basics](http://kalali.me/introducing-nio-2-jsr-203-part-2-the-basics/)
+  * [Introducing NIO.2 (JSR 203) Part 3: File System Attributes and Permissions support in NIO.2](http://kalali.me/introducing-nio-2-jsr-203-part-3-file-system-attributes-and-permissions-support-in-nio-2/)
+  * [Introducing NIO.2 (JSR 203) Part 4: Changing File System Attributes and Permissions](http://kalali.me/introducing-nio-2-jsr-203-part-4-changing-file-system-attributes-and-permissions/)
+  * [Introducing NIO.2 (JSR 203) Part 5: Watch Service and Change Notification](http://kalali.me/introducing-nio-2-jsr-203-part-5-watch-service-and-change-notification/)
+  * [Introducing NIO.2 (JSR 203) Part 6: Filtering directory content and walking over a file tree](http://kalali.me/introducing-nio-2-jsr-203-part-6-filtering-directory-content-and-walking-over-a-file-tree/)
+  * [An NIO.2 primer, Part 1: The asynchronous channel APIs](http://www.ibm.com/developerworks/java/library/j-nio2-1/?ca=drs-)
+  * [An NIO.2 primer, Part 2: The file system APIs](http://www.ibm.com/developerworks/java/library/j-nio2-2/?ca=drs-)
+  * [Java 7: NIO.2 I/O operations on asynchronous channels are not atomic](Java 7: NIO.2 I/O operations on asynchronous channels are not atomic)
+  * [Java 7: Closing NIO.2 file channels without loosing data](http://niklasschlimm.blogspot.com/2012/05/java-7-9-nio2-file-channels-on-test.html)
+
+### Java 8
+
+* Lambda
+  * [Lambda Expressions](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
+  * [State of the Lambda](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html)
+  * [State of the Lambda: Libraries Edition](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-libraries-final.html)
+* Multitenant JVM
+  * [Introduction to Java multitenancy](http://www.ibm.com/developerworks/java/library/j-multitenant-java/index.html)
+* [Abstract Class Versus Interface in the JDK 8 Era](http://java.dzone.com/articles/abstract-class-versus)
+
+### Java 9
+
+* [jagsaw](http://openjdk.java.net/projects/jigsaw/)
 
 ## 2. JVM
 
