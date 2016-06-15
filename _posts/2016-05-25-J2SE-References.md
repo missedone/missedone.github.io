@@ -134,12 +134,12 @@ description: the collection of Java Core relate articles.
 ### GC
 
 * [insidejvm2: Garbage Collection](http://www.artima.com/insidejvm/ed2/gc.html)
-		Reference Counting Collectors
-		Tracing Collectors
-		Compacting Collectors
-		Copying Collectors
-		Generational Collectors
-		Adaptive Collectors
+  * Reference Counting Collectors
+  * Tracing Collectors
+  * Compacting Collectors
+  * Copying Collectors
+  * Generational Collectors
+  * Adaptive Collectors
 * [Java深度历险（四）——Java垃圾回收机制与引用类型](http://www.infoq.com/cn/articles/cf-java-garbage-references)
 * [Garbage Collection in the Java HotSpot Virtual Machine](http://www.devx.com/Java/Article/21977)
 * [Java theory and practice: Garbage collection in the HotSpot JVM: Generational and concurrent garbage collection](http://www.ibm.com/developerworks/library/j-jtp11253/)
