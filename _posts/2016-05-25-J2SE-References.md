@@ -131,3 +131,57 @@ description: the collection of Java Core relate articles.
 
 ## 2. JVM
 
+### GC
+
+* [insidejvm2: Garbage Collection](http://www.artima.com/insidejvm/ed2/gc.html)
+		Reference Counting Collectors
+		Tracing Collectors
+		Compacting Collectors
+		Copying Collectors
+		Generational Collectors
+		Adaptive Collectors
+* [Java深度历险（四）——Java垃圾回收机制与引用类型](http://www.infoq.com/cn/articles/cf-java-garbage-references)
+* [Garbage Collection in the Java HotSpot Virtual Machine](http://www.devx.com/Java/Article/21977)
+* [Java theory and practice: Garbage collection in the HotSpot JVM: Generational and concurrent garbage collection](http://www.ibm.com/developerworks/library/j-jtp11253/)
+* [Java technology, IBM style: Garbage collection policies, Part 1: Differing policies provide flexibility](http://www.ibm.com/developerworks/library/j-ibmjava2/)
+* [Java Garbage Collection Distilled](http://www.infoq.com/articles/Java_Garbage_Collection_Distilled)
+* The Serial GC
+* The Parallel GC: Throughput Matters
+* Concurrent Mark-Swap (CMS) GC: Latency Matters
+* Garbage First (G1) GC
+  * [解析JDK 7的Garbage-First收集器](http://www.infoq.com/cn/articles/jdk7-garbage-first-collector)
+  * [Presentation: Deep Dive into G1 Garbage Collector](http://www.infoq.com/presentations/java-g1)
+  * [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
+
+### VM memory
+	
+* [jvmspec: Runtime Data Areas](http://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.5)
+  * The pc Register
+  * Java Virtual Machine Stacks
+    * [insidejvm2: The Java Stack](http://www.artima.com/insidejvm/ed2/jvm8.html)
+    * [insidejvm2: The Stack Frame](http://www.artima.com/insidejvm/ed2/jvm8.html)
+  * Heap
+    * [insidejvm2: The Heap](http://www.artima.com/insidejvm/ed2/jvm6.html)
+  * Method Area
+  * Runtime Constant Pool
+  * Native Method Stacks
+    * [insidejvm2: Native Method Stacks](http://www.artima.com/insidejvm/ed2/jvm9.html)
+* [jvmspec: Frames](http://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.6)
+  * Local Variables
+  * Operand Stacks
+  * Dynamic Linking
+  * Normal Method Invocation Completion
+  * Abrupt Method Invocation Completion
+* [insidejvm2: The Lifetime of a Type](http://www.artima.com/insidejvm/ed2/lifetype.html)
+* [insidejvm2: The Linking Model](http://www.artima.com/insidejvm/ed2/linkmod.html)
+* [Understand Stack and Heap](http://www.itcsolutions.eu/2011/02/06/tutorial-java-8-understand-stack-and-heap/)
+  * ![diagram: CallStack.gif](http://www.itcsolutions.eu/wp-content/uploads/2011/02/CallStack.gif)
+  * ![diagram: StackHeapValues.png](http://www.itcsolutions.eu/wp-content/uploads/2011/02/StackHeapValues.png)
+* [video: how memory is allocated in stack & heap](http://www.youtube.com/watch?feature=player_embedded&v=VQ4eZw6eVtQ)
+* [From Java code to Java heap: Understanding and optimizing your application's memory usage](http://www.ibm.com/developerworks/java/library/j-codetoheap/index.html)
+* [5 Tips for Proper Java Heap Size](http://architects.dzone.com/articles/5-tips-proper-java-heap-size)
+* PermGen
+  * [Java 7 features – PermGen removal](http://javaeesupportpatterns.blogspot.com/2011/10/java-7-features-permgen-removal.html)
+    * [Java 7 Questions & Answers](http://javaeesupportpatterns.blogspot.com/2011/10/java-7-features-permgen-removal.html)
+    * [Java Heap space - HotSpot VM](http://javaeesupportpatterns.blogspot.com/2011/08/java-heap-space-hotspot-vm.html)
+  * [Java 8: From PermGen to Metaspace](http://java.dzone.com/articles/java-8-permgen-metaspace)
