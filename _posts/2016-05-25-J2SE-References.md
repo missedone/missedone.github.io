@@ -19,7 +19,7 @@ description: the collection of Java Core relate articles.
     * ObjectOutputStream/ObjectInputStream
     * [commons-lang SerializationUtils](http://commons.apache.org/proper/commons-lang/javadocs/api-release/org/apache/commons/lang3/SerializationUtils.html)
     * [Java Deep Cloning Library](http://stackoverflow.com/questions/2156120/java-recommended-solution-for-deep-cloning-copying-an-instance)
-* [hashcode/clone](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29)
+* [hashcode/equals](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29)
 * [wait/notify/notifyAll](http://tutorials.jenkov.com/java-concurrency/thread-signaling.html)
 
 ### Class
@@ -123,7 +123,10 @@ description: the collection of Java Core relate articles.
   * [State of the Lambda: Libraries Edition](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-libraries-final.html)
 * Multitenant JVM
   * [Introduction to Java multitenancy](http://www.ibm.com/developerworks/java/library/j-multitenant-java/index.html)
-* [Abstract Class Versus Interface in the JDK 8 Era](http://java.dzone.com/articles/abstract-class-versus)
+* Static and Default Methods on interfaces.
+  * [Default Methods](http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+  * [Abstract Class Versus Interface in the JDK 8 Era](http://java.dzone.com/articles/abstract-class-versus)
+  * [Why does Java 8 not allow non-public default methods?](http://stackoverflow.com/a/27369217/4867232)
 
 ### Java 9
 
