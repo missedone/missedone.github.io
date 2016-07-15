@@ -45,6 +45,11 @@ description: the collection of Docker relate articles.
 * 2016
   * [InfoQ: Docker Security Scanning](https://www.infoq.com/news/2016/05/Docker-Security-Scanning)
 
+### DAB (Distributed Application Bundle)
+
+* [Introducing Experimental Distributed Application Bundles](https://blog.docker.com/2016/06/docker-app-bundle/)
+* [Docker Stacks and Distributed Application Bundles](https://github.com/docker/docker/blob/master/experimental/docker-stacks-and-bundles.md)
+
 ## 3. Ecosystem
 
 ### Monitoring
