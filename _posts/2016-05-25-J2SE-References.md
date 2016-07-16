@@ -21,6 +21,7 @@ description: the collection of Java Core relate articles.
     * [Java Deep Cloning Library](http://stackoverflow.com/questions/2156120/java-recommended-solution-for-deep-cloning-copying-an-instance)
 * [hashcode/equals](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29)
 * [wait/notify/notifyAll](http://tutorials.jenkov.com/java-concurrency/thread-signaling.html)
+  * [Wait() and notify() methods in java - Definition, 8 key features, solving consumer producer problem with & without these methods and consequences of not using wait() and notify() methods.](http://www.javamadesoeasy.com/2015/03/wait-and-notify-methods-definition-8.html)
 
 ### Class
 
@@ -66,13 +67,26 @@ description: the collection of Java Core relate articles.
   * [Java 动态代理机制分析及扩展，第 2 部分](http://www.ibm.com/developerworks/cn/java/j-lo-proxy2/index.html)
   * [Spring AOP: Dynamic Proxies vs. CGLib proxies](http://insufficientinformation.blogspot.com/2007/12/spring-dynamic-proxies-vs-cglib-proxies.html)
 
-### Threads/Concurrency
+### [Threads](https://dzone.com/articles/threads-top-80-interview)/Concurrency
 
+* [Threads implement their own stack - demonstration using program and diagram](http://www.javamadesoeasy.com/2015/03/threads-implement-their-own-stack.html)
+  ![image](https://lh6.googleusercontent.com/_svC5M0EsqxhAF4s3scoPSyh7ssKqA0SQH3ipHeksBMAll_d72w_abuyQ766i8edOFkWU6PQm5x9OZ1Xc3qT_wMsoy6YFpQSO9VnUWYfJgEDLR8dklnt_ndlFd7_hXQa8xEkfe0)
+* [Thread states/ Thread life cycle in java](http://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html)
+  ![image](https://lh4.googleusercontent.com/oR0_liUxjMnfgFS-fSuc0x2vCCPLQ0Vdw6w2rBVGloaE_84tRNprqNJEJiyI1unMY8Vpj2CDK9GiQGy03_RmteRz-aM31iIQcZsVZhIH2cLrne_5nY9miXKDmQqEHdY60_WopC0)
+* [Lock Contention](https://www.javacodegeeks.com/2014/11/multithreading-concurrency-interview-questions-answers.html)
+  > Lock contention occurs, when two or more threads are competing in the acquisition of a lock. The scheduler has to decide whether it lets the thread, which has to wait sleeping and performs a context switch to let another thread occupy the CPU, or if letting the waiting thread busy-waiting is more efficient. Both ways introduce idle time to the inferior thread.
+  In some cases lock contention can be reduced by applying one of the following techniques:
+    * The scope of the lock is reduced.
+    * The number of times a certain lock is acquired is reduced (lock splitting).
+    * Using hardware supported optimistic locking operations instead of synchronization.
+    * Avoid synchronization where possible.
+    * Avoid object pooling.
 * [insidejvm2: Thread Synchronization](http://www.artima.com/insidejvm/ed2/threadsynch.html)
 * synchronized
   * [Synchronized vs Lock Performance](http://architects.dzone.com/articles/synchronized-vs-lock-0)
 * volatile
   * [聊聊并发（一）——深入分析Volatile的实现原理](http://www.infoq.com/cn/articles/ftf-java-volatile)
+  * [Volatile keyword in java- difference between synchronized and volatile, 10 key points about volatile keyword, why volatile variables are not cached in memory](http://www.javamadesoeasy.com/2015/03/volatile-keyword-in-java-difference.html)
 * [Coordinating threads with CountDownLatch](http://www.javamex.com/tutorials/threads/CountDownLatch.shtml)
 * [CyclicBarrier: concordinating the stages of a multithreaded operation](http://www.javamex.com/tutorials/threads/CyclicBarrier.shtml)
 * Collections
