@@ -39,6 +39,7 @@ description: the collection of Java Core relate articles.
   * System classloader
   * User-defined classloader
 * [insidejvm2: The Class Loader Subsystem](http://www.artima.com/insidejvm/ed2/jvm4.html)
+  ![image](http://www.artima.com/insidejvm/ed2/images/fig7-1.gif)
   1. Loading: finding and importing the binary data for a type
   2. Linking
     * Verification: ensuring the correctness of the imported type
