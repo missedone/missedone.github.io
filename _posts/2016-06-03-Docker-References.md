@@ -39,6 +39,7 @@ description: the collection of Docker relate articles.
   * [6 Dockerfile Tips from the Official Images](http://container-solutions.com/6-dockerfile-tips-official-images/)
 * 2016
   * [Refactoring a Dockerfile for image size](https://blog.replicated.com/2016/02/05/refactoring-a-dockerfile-for-image-size/)
+  * [Using Docker tags to mess with people’s minds](https://medium.com/microscaling-systems/using-docker-tags-to-mess-with-peoples-minds-367bb2c93bd0#.xvfrqjnoe) (label)
 
 ### Security
 
@@ -60,6 +61,13 @@ description: the collection of Docker relate articles.
 ### Cluster/Scheduler
 
 * [Comparison of Container Schedulers](https://medium.com/@ArmandGrillet/comparison-of-container-schedulers-c427f4f7421#.i4va7u49v)
+* [Kubernetes vs. Docker Swarm and the Google Cloud Platform](https://dzone.com/articles/kubernetes-and-google-cloud-platform)
+
+### Swarm
+
+### Mesos
+
+### Kubernetes
 
 ### Docker Workflow
 
