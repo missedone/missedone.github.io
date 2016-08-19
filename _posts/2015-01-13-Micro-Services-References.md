@@ -34,3 +34,9 @@ description: the collection of Architecture Microservices relate articles.
     Naively, we thought it would be only need one version of the service. Then we started to add major, minor versions to accommodate multiple consumers and frequent changes. Eventually, every release had to be a major release since the services were relying on consumer sign off. As a result, the number of containers increased very fast and it became a huge pain to manage them. Lack of runtime governance was another aspect that contributed to this issue. Some enterprises foolishly try to avoid versioning. Services need to be architected assuming that change is inevitable.  Have a strategy to manage the forward compatible service changes and allow your consumers to upgrade gracefully. Otherwise, it will lead to having consumers tightly bound to a service version and break when there is a change.
     The complexity grows as the number of services grows which the microservices world expects. Have a versioning strategy that can allow the consumers a graceful migration and assure providers can transparently deploy changes without affecting anyone. Limit the number of side-by-side major versions in the production and govern them.
   * [Coupling Versus Autonomy in Microservices](https://www.voxxed.com/blog/2015/04/coupling-versus-autonomy-in-microservices/)
+
+## Transactions
+
+* [Transactions in Micro services architecture](http://blog.naturalint.com/transactions-in-micro-services-architecture/)
+* [Distributed Transaction Management in a Microservices Architecture](http://www.devx.com/blog/dev_issues/distributed-transaction-management-in-a-microservices-architecture.html)
+* [What is the most accepted transaction strategy for microservices](http://programmers.stackexchange.com/a/290952)
