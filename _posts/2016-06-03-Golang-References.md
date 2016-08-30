@@ -8,6 +8,10 @@ description: the collection of Golang relate articles.
 
 ## 1. Language
 
+### Pointer
+
+* [Pointing to Go — The Go Pointer Type](https://medium.com/learning-the-go-porgramming-language/pointing-to-go-the-go-pointer-type-a3c3f587592f#.nf9uff9ol)
+
 ### Concurrency
 
 * ['Concurrency' Chapter in Book 'Go Bootcamp'](http://www.golangbootcamp.com/book/concurrency)
