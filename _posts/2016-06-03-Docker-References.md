@@ -28,6 +28,10 @@ description: the collection of Docker relate articles.
 * 2014
   * [Understanding Volumes in Docker](http://container-solutions.com/understanding-volumes-docker/)
 
+### Network
+
+* [Improved Options for Service Load Balancing in Docker 1.12.0](https://www.infoq.com/news/2016/08/docker-service-load-balancing)
+
 ### Registry
 
 * [Deploying a registry server 2.0](https://docs.docker.com/registry/deploying/)
@@ -67,6 +71,8 @@ description: the collection of Docker relate articles.
 
 ### Mesos
 
+* [Scaling Container Architectures with OSS & Mesos](https://www.infoq.com/presentations/two-sigma-containers)
+
 ### Kubernetes
 
 ### Docker Workflow
@@ -79,7 +85,11 @@ description: the collection of Docker relate articles.
 * 2016
   * [Testing Docker multi-host network performance](http://planet.mysql.com/entry/?id=5997399)
 
-## 5. Reference Site
+## 5. Readings
+
+* [http://thenewstack.io/docker-fork-talk-split-now-table/](http://thenewstack.io/docker-fork-talk-split-now-table/)
+
+## 6. Reference Site
 
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Docker News & Articles](http://docker-software-inc.scoop.it/t/docker-by-docker)
