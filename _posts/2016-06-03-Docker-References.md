@@ -72,6 +72,7 @@ description: the collection of Docker relate articles.
 ### Mesos
 
 * [Scaling Container Architectures with OSS & Mesos](https://www.infoq.com/presentations/two-sigma-containers)
+* [Distributed Resource Scheduling with Apache Mesos](http://techblog.netflix.com/2016/07/distributed-resource-scheduling-with.html) [1](http://www.infoq.com/cn/news/2016/08/Apache-Netflix)
 
 ### Kubernetes
 
