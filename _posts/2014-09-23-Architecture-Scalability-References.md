@@ -12,5 +12,7 @@ description: the collection of Architecture Scalability relate articles.
 * 2013
   * [Scaling Dropbox](https://www.infoq.com/news/2013/08/scaling_dropbox)
   * [Scaling Twitter to New Peaks](https://www.infoq.com/news/2013/08/scaling-twitter)
+* 2010
+  * [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
 * 2008
   * [Scalability Best Practices: Lessons from eBay](https://www.infoq.com/articles/ebay-scalability-best-practices)
