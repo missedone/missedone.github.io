@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Architecture Microservices References
+title: Microservices References
 categories: [architecture]
 tags: [microservices]
-description: the collection of Architecture Microservices relate articles.
+description: the collection of Microservices relate articles.
 ---
 
 * 2016
+  * [Best Practices for Building a Microservice Architecture](http://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture)
   * [Challenges of Microservices Deployments](https://www.infoq.com/news/2016/04/msa-deployment-challenges)
   * [Locating Common Micro Service Performance Anti-Patterns](https://www.infoq.com/articles/Diagnose-Microservice-Performance-Anti-Patterns)
   * Video [Microservices Antipatterns](https://www.infoq.com/presentations/cloud-anti-patterns)
