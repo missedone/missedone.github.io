@@ -88,7 +88,8 @@ description: the collection of Docker relate articles.
 
 ## 5. Readings
 
-* [http://thenewstack.io/docker-fork-talk-split-now-table/](http://thenewstack.io/docker-fork-talk-split-now-table/)
+* [A Docker Fork: Talk of a Split Is Now on the Table](http://thenewstack.io/docker-fork-talk-split-now-table/)
+  * Podcast [Docker and the ‘F’-word](http://thenewstack.io/rumored-docker-fork-fud-moves-conversation-forward/)
 
 ## 6. Reference Site
 
