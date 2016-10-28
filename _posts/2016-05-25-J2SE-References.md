@@ -146,6 +146,7 @@ description: the collection of Java Core relate articles.
 ### Java 9
 
 * [jagsaw](http://openjdk.java.net/projects/jigsaw/)
+* [Java 9, OSGi and the Future of Modularity](https://www.infoq.com/articles/java9-osgi-future-modularity)
 
 ## 2. JVM
 
@@ -160,16 +161,25 @@ description: the collection of Java Core relate articles.
   * Adaptive Collectors
 * [Java深度历险（四）——Java垃圾回收机制与引用类型](http://www.infoq.com/cn/articles/cf-java-garbage-references)
 * [Garbage Collection in the Java HotSpot Virtual Machine](http://www.devx.com/Java/Article/21977)
-* [Java theory and practice: Garbage collection in the HotSpot JVM: Generational and concurrent garbage collection](http://www.ibm.com/developerworks/library/j-jtp11253/)
+* Generational GC
+  * [Java theory and practice: Garbage collection in the HotSpot JVM: Generational and concurrent garbage collection](http://www.ibm.com/developerworks/library/j-jtp11253/)
+  * [Useful JVM Flags – Part 5 (Young Generation Garbage Collection)](https://blog.codecentric.de/en/2012/08/useful-jvm-flags-part-5-young-generation-garbage-collection/)
+  * [Java Platform, Standard Edition HotSpot Virtual Machine Garbage Collection Tuning Guide: Sizing the Generations](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html)
 * [Java technology, IBM style: Garbage collection policies, Part 1: Differing policies provide flexibility](http://www.ibm.com/developerworks/library/j-ibmjava2/)
 * [Java Garbage Collection Distilled](http://www.infoq.com/articles/Java_Garbage_Collection_Distilled)
+* [Understanding Java Garbage Collection](http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/)
 * The Serial GC
 * The Parallel GC: Throughput Matters
 * Concurrent Mark-Swap (CMS) GC: Latency Matters
+  * [Java VM Options You Should Always Use in Production](http://blog.sokolenko.me/2014/11/javavm-options-production.html)
 * Garbage First (G1) GC
   * [解析JDK 7的Garbage-First收集器](http://www.infoq.com/cn/articles/jdk7-garbage-first-collector)
   * [Presentation: Deep Dive into G1 Garbage Collector](http://www.infoq.com/presentations/java-g1)
   * [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
+* Tuning
+  * [Garbage Collection Optimization for High-Throughput and Low-Latency Java Applications](https://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications)
+  * [Tuning Garbage Collection for Mission-Critical Java Applications](http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/)
+  * [Tuning Java Garbage Collection for Web Services](https://engineering.linkedin.com/26/tuning-java-garbage-collection-web-services)
 
 ### VM memory
 	
