@@ -159,27 +159,34 @@ description: the collection of Java Core relate articles.
   * Copying Collectors
   * Generational Collectors
   * Adaptive Collectors
-* [Java深度历险（四）——Java垃圾回收机制与引用类型](http://www.infoq.com/cn/articles/cf-java-garbage-references)
-* [Garbage Collection in the Java HotSpot Virtual Machine](http://www.devx.com/Java/Article/21977)
+* [GC Algorithms: Implementations](https://plumbr.eu/handbook/garbage-collection-algorithms-implementations)
+  * The Serial GC
+  * The Parallel GC: Throughput Matters
+  * Concurrent Mark-Swap (CMS) GC: Latency Matters
+    * [Java VM Options You Should Always Use in Production](http://blog.sokolenko.me/2014/11/javavm-options-production.html)
+  * Garbage First (G1) GC
+    * [解析JDK 7的Garbage-First收集器](http://www.infoq.com/cn/articles/jdk7-garbage-first-collector)
+    * [Presentation: Deep Dive into G1 Garbage Collector](http://www.infoq.com/presentations/java-g1)
+    * [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
 * Generational GC
   * [Java theory and practice: Garbage collection in the HotSpot JVM: Generational and concurrent garbage collection](http://www.ibm.com/developerworks/library/j-jtp11253/)
   * [Useful JVM Flags – Part 5 (Young Generation Garbage Collection)](https://blog.codecentric.de/en/2012/08/useful-jvm-flags-part-5-young-generation-garbage-collection/)
   * [Java Platform, Standard Edition HotSpot Virtual Machine Garbage Collection Tuning Guide: Sizing the Generations](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html)
+* [Java深度历险（四）——Java垃圾回收机制与引用类型](http://www.infoq.com/cn/articles/cf-java-garbage-references)
+* [Garbage Collection in the Java HotSpot Virtual Machine](http://www.devx.com/Java/Article/21977)
+* [Minor GC vs Major GC vs Full GC](https://plumbr.eu/blog/garbage-collection/minor-gc-vs-major-gc-vs-full-gc)
 * [Java technology, IBM style: Garbage collection policies, Part 1: Differing policies provide flexibility](http://www.ibm.com/developerworks/library/j-ibmjava2/)
-* [Java Garbage Collection Distilled](http://www.infoq.com/articles/Java_Garbage_Collection_Distilled)
+* [InfoQ: Java Garbage Collection Distilled](http://www.infoq.com/articles/Java_Garbage_Collection_Distilled)
 * [Understanding Java Garbage Collection](http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/)
-* The Serial GC
-* The Parallel GC: Throughput Matters
-* Concurrent Mark-Swap (CMS) GC: Latency Matters
-  * [Java VM Options You Should Always Use in Production](http://blog.sokolenko.me/2014/11/javavm-options-production.html)
-* Garbage First (G1) GC
-  * [解析JDK 7的Garbage-First收集器](http://www.infoq.com/cn/articles/jdk7-garbage-first-collector)
-  * [Presentation: Deep Dive into G1 Garbage Collector](http://www.infoq.com/presentations/java-g1)
-  * [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
 * Tuning
+  * JDK Official [Docs](http://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html#sizing_generations) [Sizing the Generations](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html)
+    * [Adjusting Generation Sizes](http://www.oracle.com/technetwork/java/gc-tuning-5-138395.html#0.0.0.0.Adjusting%20Generation%20Sizes%7Coutline)
+    * [More On The Incredible Shrinking JVM Heap](https://stopcoding.wordpress.com/2010/04/12/more-on-the-incredible-shrinking-jvm-heap/)
+    * [What's the basis for Ergonomics setting the value of MaxNewSize](http://stackoverflow.com/q/22455562)
   * [Garbage Collection Optimization for High-Throughput and Low-Latency Java Applications](https://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications)
   * [Tuning Garbage Collection for Mission-Critical Java Applications](http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/)
   * [Tuning Java Garbage Collection for Web Services](https://engineering.linkedin.com/26/tuning-java-garbage-collection-web-services)
+  * [UseAdaptiveSizePolicy与CMS垃圾回收同时使用导致的JVM报错](http://www.cnblogs.com/moonandstar08/p/5751175.html)
 
 ### VM memory
 	
@@ -213,3 +220,11 @@ description: the collection of Java Core relate articles.
     * [Java 7 Questions & Answers](http://javaeesupportpatterns.blogspot.com/2011/10/java-7-features-permgen-removal.html)
     * [Java Heap space - HotSpot VM](http://javaeesupportpatterns.blogspot.com/2011/08/java-heap-space-hotspot-vm.html)
   * [Java 8: From PermGen to Metaspace](http://java.dzone.com/articles/java-8-permgen-metaspace)
+
+# 2. Performance Tuning Tips
+
+## Identify thread cunsuming CPU
+
+* [Figure out why is JAVA eating CPU?](http://javadrama.blogspot.com/2012/02/why-is-java-eating-my-cpu.html)
+* [Identify Java code consuming high CPU in Linux (linking JVM thread and Linux PID)](https://blogs.manageengine.com/application-performance-2/appmanager/2011/02/09/identify-java-code-consuming-high-cpu-in-linux-linking-jvm-thread-and-linux-pid.html)
+* [Which Java thread consumes my CPU?](http://www.nurkiewicz.com/2012/08/which-java-thread-consumes-my-cpu.html)
