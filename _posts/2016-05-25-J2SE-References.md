@@ -59,6 +59,14 @@ description: the collection of Java Core relate articles.
 
 * [Oracle Tunes Java's Internal String Representation](http://www.infoq.com/news/2013/12/Oracle-Tunes-Java-String)
 
+#### Regex
+
+* [SO: Greedy vs. Reluctant vs. Possessive Quantifiers](http://stackoverflow.com/questions/5319840/greedy-vs-reluctant-vs-possessive-quantifiers)
+* [What is the difference between `Greedy` and `Reluctant` regular expression quantifiers?](http://stackoverflow.com/questions/1139171/what-is-the-difference-between-greedy-and-reluctant-regular-expression-quant)
+* Online RegEx tester
+  * http://myregexp.com
+  * http://regexr.com
+
 ### Reflection
 
 * [Java Reflection: Private Fields and Methods](http://tutorials.jenkov.com/java-reflection/private-fields-and-methods.html)
