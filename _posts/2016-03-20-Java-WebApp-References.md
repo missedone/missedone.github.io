@@ -45,3 +45,8 @@ description: the collection of Java WebApp Dev relate articles.
 ### Token Based Auth
 
 * [The Ultimate Guide to Mobile API Security](https://stormpath.com/blog/the-ultimate-guide-to-mobile-api-security/)
+
+## Cache
+
+* [Best Practices for Scaling Java Applications with Distributed Caching](http://www.cacheonix.org/presentations/best_practices_for_scaling_java_applications_with_distributed_caching.pdf)
+* [In-Process Caching vs. Distributed Caching](https://dzone.com/articles/process-caching-vs-distributed)
