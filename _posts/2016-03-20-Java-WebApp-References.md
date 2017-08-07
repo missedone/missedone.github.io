@@ -50,3 +50,7 @@ description: the collection of Java WebApp Dev relate articles.
 
 * [Best Practices for Scaling Java Applications with Distributed Caching](http://www.cacheonix.org/presentations/best_practices_for_scaling_java_applications_with_distributed_caching.pdf)
 * [In-Process Caching vs. Distributed Caching](https://dzone.com/articles/process-caching-vs-distributed)
+
+## Hibernate
+
+* [Pitfalls of the Hibernate Second-Level / Query Caches](http://blog.jhades.org/setup-and-gotchas-of-the-hibernate-second-level-and-query-caches/)
