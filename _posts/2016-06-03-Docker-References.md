@@ -47,6 +47,9 @@ description: the collection of Docker relate articles.
 * 2016
   * [Refactoring a Dockerfile for image size](https://blog.replicated.com/2016/02/05/refactoring-a-dockerfile-for-image-size/)
   * [Using Docker tags to mess with people’s minds](https://medium.com/microscaling-systems/using-docker-tags-to-mess-with-peoples-minds-367bb2c93bd0#.xvfrqjnoe) (label)
+* 2017
+  * [Use multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/)
+  * [A Dockerfile for Maven-based Github projects - Multi-stage builds](https://blog.frankel.ch/dockerfile-maven-based-github-projects/#gsc.tab=0)
 
 ### Security
 
