@@ -150,6 +150,8 @@ description: the collection of Java Core relate articles.
   * [Default Methods](http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
   * [Abstract Class Versus Interface in the JDK 8 Era](http://java.dzone.com/articles/abstract-class-versus)
   * [Why does Java 8 not allow non-public default methods?](http://stackoverflow.com/a/27369217/4867232)
+* Stream
+  * [Java 8 Iterable.forEach() vs foreach loop](http://stackoverflow.com/a/20177092/4867232)
 
 ### Java 9
 
