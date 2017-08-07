@@ -6,14 +6,17 @@ tags: [docker, devops, cloud]
 description: the collection of Docker relate articles.
 ---
 
-## 1. Getting Started
+## 1. [Getting Started](https://docs.docker.com/get-started/)
 
+* [refcardz - Getting Started With Docker](https://dzone.com/refcardz/getting-started-with-docker-1)
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 * [Docker Engine reference](https://docs.docker.com/engine/reference/)
 * Docker essentials (2014)
   * [Images and Containers](http://www.dasblinkenlichten.com/docker-essentials/)
   * [More work with images](http://www.dasblinkenlichten.com/docker-essentials-working-with-images/)
   * [The docker file](http://www.dasblinkenlichten.com/docker-essentials-the-docker-file/)
+* 2017
+  * [Docker for Java Developers - The Big Picture](http://blog.codepipes.com/containers/docker-for-java-big-picture.html)
 * On Mac
   * [Testing the Docker for Mac Beta](http://www.dwmkerr.com/testing-the-docker-for-mac-beta/)
   * [Docker for Mac forum](https://forums.docker.com/c/docker-for-mac)
@@ -95,3 +98,8 @@ description: the collection of Docker relate articles.
 
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 * [Docker News & Articles](http://docker-software-inc.scoop.it/t/docker-by-docker)
+
+### Tips
+
+* 2017
+  * [Java Inside Docker: What You Must Know to Not FAIL](https://dzone.com/articles/java-hashmap-search-and-sort)
